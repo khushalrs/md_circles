@@ -1,0 +1,26 @@
+# qos_overrides.yaml  (no tabs!)
+/drone1/rgb_camera:
+  reliability: best_effort
+  history: keep_last
+  depth: 10
+/drone1/depth_camera:
+  reliability: best_effort
+  history: keep_last
+  depth: 10
+/drone1/camera_info:
+  reliability: best_effort
+  history: keep_last
+  depth: 10
+
+/drone2/rgb_camera:
+  reliability: best_effort
+  history: keep_last
+  depth: 10
+/drone2/depth_camera:
+  reliability: best_effort
+  history: keep_last
+  depth: 10
+/drone2/camera_info:
+  reliability: best_effort
+  history: keep_last
+  depth: 10
